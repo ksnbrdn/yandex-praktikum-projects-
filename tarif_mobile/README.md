@@ -4,5 +4,6 @@
 ## Использованы библиотеки и методы:
 - pandas
 - numpy
+- seaborn
 - sklearn
 - tqdm
