@@ -13,4 +13,13 @@
 Были исследованы модели Decision Tree Classifier, RandomForestClassifier и Logistic Regression с учетом дисбаланса данных. Самое высокое значение AUC-ROC у наилучшей модели Logistic Regression - 0.5. Самый лучший показатель F1 у RandomForestClassifier - 0.61, с лучшим значением n_estimators = 21 и лучшим значением max_depth = 10. Выбрали эту модель для финального тестирования.  
 На тестовой выборке F1 у лучшей модели RandomForestClassifier - 0.63.  
 Построили ROC-кривую для лучшей модели RandomForestClassifier и изобразили её на графике. Также посчитали значение AUC-ROC наилучшей модели RandomForestClassifier: 0.845.  
-Проверили нашу модель на адекватность, используя модель DummyClassifier. F1 модели DummyClassifier ниже, чем у нашей лучшей модели RandomForestClassifier. Наша модель адекватна и эффективна.  
+Проверили нашу модель на адекватность, используя модель DummyClassifier. F1 модели DummyClassifier ниже, чем у нашей лучшей модели RandomForestClassifier. Наша модель адекватна и эффективна.    
+
+## Использованы библиотеки и методы:    
+- pandas
+- numpy
+- matplotlib.pyplot
+- re
+- sklearn
+- tqdm
+
