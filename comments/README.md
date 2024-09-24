@@ -14,6 +14,5 @@
 - nltk
 - wordnet
 - sklearn
-- catboost
 - lightgbm
 - tqdm
